@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.checkDeleteController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonEnter" layoutX="65.0" layoutY="161.0" mnemonicParsing="false" onAction="#buttonClickedEnter" text="決定" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="185.0" />
+            <Button fx:id="buttonReturn" layoutX="186.0" layoutY="161.0" mnemonicParsing="false" onAction="#buttonClickedReturn" text="戻る" AnchorPane.leftAnchor="185.0" AnchorPane.rightAnchor="75.0" />
+            <Label contentDisplay="CENTER" layoutX="84.0" layoutY="37.0" prefHeight="89.0" prefWidth="133.0" text="最新のデータを削除します。&#10;&#10;決定すると元に戻せません。&#10;&#10;削除しますか？" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

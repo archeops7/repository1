@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.showAllDataController">
+   <top>
+      <AnchorPane prefHeight="400.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="TableAllData" layoutX="14.0" layoutY="14.0" prefHeight="333.0" prefWidth="770.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+              <columns>
+                <TableColumn fx:id="km" prefWidth="70.0" text="今回距離" />
+                <TableColumn fx:id="totalKm" prefWidth="70.0" text="累計距離" />
+                  <TableColumn fx:id="litter" prefWidth="70.0" text="消費燃料量" />
+                  <TableColumn fx:id="totalLitter" prefWidth="70.0" text="累計燃料量" />
+                  <TableColumn fx:id="mileage" prefWidth="70.0" text="今回燃費" />
+                  <TableColumn fx:id="aveMileage" prefWidth="70.0" text="累計燃費" />
+                  <TableColumn fx:id="price" prefWidth="70.0" text="ガソリン単価" />
+                  <TableColumn fx:id="cost" prefWidth="70.0" text="燃料費" />
+                  <TableColumn fx:id="totalCost" prefWidth="70.0" text="累計燃料費" />
+                  <TableColumn fx:id="memo" prefWidth="70.0" text="メモ" />
+                  <TableColumn fx:id="date" prefWidth="70.0" text="日付" />
+              </columns>
+            </TableView>
+            <Button fx:id="buttonReturn" layoutX="744.0" layoutY="353.0" mnemonicParsing="false" onAction="#buttonClickedReturn" prefHeight="27.0" prefWidth="41.0" text="戻る" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

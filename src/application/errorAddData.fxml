@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.errorAddDataController">
+   <bottom>
+      <AnchorPane prefHeight="300.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="141.0" layoutY="76.0" text="エラー　次の場所に正しい値を入れてください。" />
+            <Button fx:id="buttonReturn" layoutX="230.0" layoutY="249.0" mnemonicParsing="false" onAction="#buttonClickedReturn" text="戻る" />
+            <Label fx:id="errorMSG" alignment="CENTER" layoutX="161.0" layoutY="142.0" prefHeight="17.0" prefWidth="177.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

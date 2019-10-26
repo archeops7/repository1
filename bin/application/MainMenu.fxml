@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainMenuController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="300.0" prefWidth="500.0">
+         <children>
+            <Button fx:id="button_New" layoutX="203.0" layoutY="147.0" mnemonicParsing="false" onAction="#buttonClickedNew" prefHeight="130.0" prefWidth="94.0" text="New Data" />
+            <Button fx:id="button_Record" layoutX="59.0" layoutY="147.0" mnemonicParsing="false" onAction="#buttonClickedRecord" prefHeight="130.0" prefWidth="94.0" text="Record" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="59.0" AnchorPane.rightAnchor="347.0" AnchorPane.topAnchor="147.0" />
+            <Button fx:id="button_Exit" layoutX="352.0" layoutY="147.0" mnemonicParsing="false" onAction="#buttonClickedExit" prefHeight="130.0" prefWidth="94.0" text="Exit" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="347.0" AnchorPane.rightAnchor="59.0" />
+            <Label layoutX="63.0" layoutY="67.0" prefHeight="28.0" prefWidth="323.0" text="データの新規登録、今までのデータの確認ができます。" />
+            <Label layoutX="63.0" layoutY="95.0" prefHeight="47.0" prefWidth="374.0" text="「新規登録」をするなら 『NewData』 、「データの確認」をするなら 『Record』、&#10;「アプリを終了する」なら 『exit』 のボタンを押してください。&#10;" />
+            <Label layoutX="59.0" layoutY="25.0" prefHeight="39.0" prefWidth="168.0" text="燃費NOTE" textFill="#18ab46">
+               <font>
+                  <Font name="Calibri" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.editDataController">
+   <bottom>
+      <AnchorPane prefHeight="300.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonEdit" layoutX="197.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonClickedEdit" text="修正" />
+            <Button fx:id="buttonDelete" layoutX="243.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonClickedDelete" text="削除" />
+            <Button fx:id="buttonReturn" layoutX="426.0" layoutY="261.0" mnemonicParsing="false" onAction="#buttonClickedReturn" text="戻る" />
+            <TextArea fx:id="fieldMemo" layoutX="78.0" layoutY="140.0" prefHeight="120.0" prefWidth="210.0" />
+            <TextField fx:id="fieldKm" layoutX="109.0" layoutY="42.0" />
+            <TextField fx:id="fieldLitter" layoutX="109.0" layoutY="77.0" />
+            <TextField fx:id="fieldPrice" layoutX="109.0" layoutY="112.0" />
+            <Label fx:id="labelTotalKm" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="46.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="46.0" />
+            <Label fx:id="labelTotalLitter" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="81.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="81.0" />
+            <Label fx:id="labelMileage" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="116.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="116.0" />
+            <Label fx:id="labelAveMileage" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="150.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="150.0" />
+            <Label fx:id="labelCost" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="185.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="183.0" />
+            <Label fx:id="labelTotalCost" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="218.0" text="Label" textAlignment="RIGHT" AnchorPane.topAnchor="218.0" />
+            <Label layoutX="14.0" layoutY="4.0" text="データの修正をする場合は、変更したい値を入力して「修正」ボタンを押してください。&#10;データの削除をする場合は、「削除」ボタンを押してください。" />
+            <Label layoutX="48.0" layoutY="46.0" text="走行距離：" />
+            <Label layoutX="59.0" layoutY="81.0" text="給油量：" />
+            <Label layoutX="35.0" layoutY="116.0" text="ガソリン単価：" />
+            <Label layoutX="258.0" layoutY="46.0" text="km" />
+            <Label layoutX="264.0" layoutY="81.0" text="L" />
+            <Label layoutX="258.0" layoutY="116.0" text="円/L" />
+            <Label layoutX="48.0" layoutY="142.0" text="メモ：" />
+            <Label layoutX="327.0" layoutY="46.0" text="累計走行距離：" />
+            <Label layoutX="339.0" layoutY="81.0" text="累計燃料量：" />
+            <Label layoutX="375.0" layoutY="116.0" text="燃費：" />
+            <Label layoutX="351.0" layoutY="151.0" text="平均燃費：" />
+            <Label layoutX="363.0" layoutY="183.0" text="燃料費：" />
+            <Label layoutX="339.0" layoutY="218.0" text="累計燃料費：" />
+            <Label layoutX="450.0" layoutY="46.0" text="km" />
+            <Label layoutX="450.0" layoutY="81.0" text="L" />
+            <Label layoutX="450.0" layoutY="116.0" text="km/L" />
+            <Label layoutX="450.0" layoutY="150.0" text="km/L" />
+            <Label layoutX="450.0" layoutY="183.0" text="円" />
+            <Label layoutX="450.0" layoutY="218.0" text="円" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

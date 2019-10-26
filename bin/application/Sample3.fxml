@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController3">
+   <center>
+      <AnchorPane prefHeight="300.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonAdd" layoutX="145.0" layoutY="262.0" mnemonicParsing="false" onAction="#buttonClickedAdd" text="保存" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="303.0" />
+            <Button fx:id="buttonReturn" layoutX="333.0" layoutY="262.0" mnemonicParsing="false" onAction="#buttonClickedReturn" text="戻る" AnchorPane.leftAnchor="303.0" AnchorPane.rightAnchor="145.0" />
+            <Label fx:id="label_km" alignment="CENTER" layoutX="121.0" layoutY="34.0" prefHeight="17.0" prefWidth="60.0" text="0.00" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="34.0" />
+            <Label fx:id="label_litter" alignment="CENTER" layoutX="80.0" layoutY="74.0" prefHeight="17.0" prefWidth="91.0" text="0.00" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="65.0" />
+            <Label fx:id="label_mileage" alignment="CENTER" layoutX="80.0" layoutY="115.0" prefHeight="17.0" prefWidth="91.0" text="0.00" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="95.0" />
+            <Label fx:id="label_cost" alignment="CENTER" layoutX="80.0" layoutY="150.0" prefHeight="17.0" prefWidth="91.0" text="0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="155.0" />
+            <Label fx:id="label_totalKm" alignment="CENTER" layoutX="355.0" layoutY="37.0" prefHeight="17.0" prefWidth="91.0" text="0.00" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="34.0" />
+            <Label fx:id="label_totalLitter" alignment="CENTER" layoutX="355.0" layoutY="66.0" prefHeight="17.0" prefWidth="91.0" text="0.00" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="64.0" />
+            <Label fx:id="label_aveMileage" alignment="CENTER" layoutX="355.0" layoutY="98.0" prefHeight="17.0" prefWidth="91.0" text="0.00" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="94.0" />
+            <Label fx:id="label_totalCost" alignment="CENTER" layoutX="355.0" layoutY="132.0" prefHeight="17.0" prefWidth="91.0" text="0" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="74.0" AnchorPane.topAnchor="124.0" />
+            <Label fx:id="label_price" alignment="CENTER" layoutX="80.0" layoutY="124.0" prefHeight="17.0" prefWidth="91.0" text="0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="319.0" AnchorPane.topAnchor="125.0" />
+            <Label fx:id="label_memo" layoutX="88.0" layoutY="177.0" prefHeight="76.0" prefWidth="367.0" text="なし" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="45.0" />
+            <Label layoutX="60.0" layoutY="34.0" text="走行距離：" AnchorPane.rightAnchor="380.0" />
+            <Label layoutX="50.0" layoutY="177.0" text="メモ：" AnchorPane.rightAnchor="380.0" />
+            <Label layoutX="32.0" layoutY="75.0" text="給油量：" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="65.0" />
+            <Label layoutX="38.0" layoutY="116.0" text="燃費：" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="95.0" />
+            <Label layoutX="20.0" layoutY="154.0" text="ガソリン代：" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="155.0" />
+            <Label layoutX="271.0" layoutY="34.0" text="累計走行距離：" AnchorPane.topAnchor="34.0" />
+            <Label layoutX="283.0" layoutY="67.0" text="累計給油量：" />
+            <Label layoutX="295.0" layoutY="94.0" text="平均燃費：" />
+            <Label layoutX="271.0" layoutY="124.0" text="累計ガソリン代：" />
+            <Label layoutX="8.0" layoutY="125.0" text="ガソリン単価：" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="125.0" />
+            <Label layoutX="181.0" layoutY="34.0" text="km" AnchorPane.leftAnchor="181.0" />
+            <Label layoutX="181.0" layoutY="65.0" text="L" />
+            <Label layoutX="181.0" layoutY="94.0" text="km/L" />
+            <Label layoutX="181.0" layoutY="125.0" text="円/L" />
+            <Label layoutX="181.0" layoutY="155.0" text="円" />
+            <Label layoutX="423.0" layoutY="64.0" text="L" AnchorPane.leftAnchor="423.0" />
+            <Label layoutX="426.0" layoutY="34.0" text="km" AnchorPane.leftAnchor="423.0" />
+            <Label layoutX="421.0" layoutY="94.0" text="km/L" AnchorPane.leftAnchor="423.0" />
+            <Label layoutX="420.0" layoutY="124.0" text="円" AnchorPane.leftAnchor="423.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
