@@ -5,7 +5,7 @@ NAME
 Description  
 This app is for managing the mileage, refueling amount, fuel consumption etc. of a car.  
 You can create new data, view data, modify or delete the latest data.  
-Java, JavaFX, MySQL are used.  
+Java8, JavaFX, MySQL are used.  
   
 MySQL Table Structure  
 Database Name - "record", Table Name - "record"
