@@ -63,6 +63,21 @@ public class recordMenuController {
 		}
 		}
 	
+	@FXML public void buttonClickedChart(Event eveChart) {
+		Scene ch = ((Node)eveChart.getSource()).getScene();
+		Window window = ch.getWindow();
+		window.hide();
+		try {
+			Parent parent = FXMLLoader.load(getClass().getResource("showChart.fxml"));
+			Scene scene = new Scene(parent);
+			Stage stage = new Stage();
+			stage.setScene(scene);
+			stage.show();
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	@FXML public void buttonClickedEditData(Event eveEditData) {
 		Scene ed = ((Node)eveEditData.getSource()).getScene();
 		Window window = ed.getWindow();

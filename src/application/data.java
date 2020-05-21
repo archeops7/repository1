@@ -18,6 +18,7 @@ public class data {
 	private IntegerProperty totalCost ;
 	private StringProperty memo ;
 	private StringProperty date ;
+	private IntegerProperty id ;
 	
 	public data(double km, double totalKm, double litter, double totalLitter, double mileage, double aveMileage, int price, int cost, int totalCost, String memo, String date) {
 		this.km = new SimpleDoubleProperty(km);
@@ -33,6 +34,15 @@ public class data {
 		this.date = new SimpleStringProperty(date);
 	}
 	
+	public data(int id) {
+		this.id = new SimpleIntegerProperty(id);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+	public data(double mileage) {
+		this.mileage = new SimpleDoubleProperty(mileage);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+
 	public DoubleProperty kmProperty() {
 	 return km;
 	}

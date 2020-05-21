@@ -9,22 +9,22 @@
    <bottom>
       <AnchorPane prefHeight="300.0" prefWidth="500.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tableLatestData1" layoutX="18.0" layoutY="44.0" prefHeight="60.0" prefWidth="465.0">
+            <TableView fx:id="tableLatestData1" layoutX="18.0" layoutY="44.0" prefHeight="50.0" prefWidth="465.0">
               <columns>
-                <TableColumn fx:id="date" prefWidth="113.0" text="日付" />
+                <TableColumn fx:id="date" prefWidth="110.0" text="日付" />
                 <TableColumn fx:id="km" prefWidth="88.0" text="走行距離" />
                   <TableColumn fx:id="totalKm" prefWidth="88.0" text="累計走行距離" />
                   <TableColumn fx:id="litter" prefWidth="88.0" text="消費燃料量" />
                   <TableColumn fx:id="totalLitter" prefWidth="88.0" text="累計燃料量" />
               </columns>
             </TableView>
-            <TableView fx:id="tableLatestData2" layoutX="18.0" layoutY="106.0" prefHeight="60.0" prefWidth="465.0">
+            <TableView fx:id="tableLatestData2" layoutX="18.0" layoutY="106.0" prefHeight="50.0" prefWidth="465.0">
                <columns>
                   <TableColumn fx:id="mileage" prefWidth="93.0" text="今回燃費" />
                   <TableColumn fx:id="aveMileage" prefWidth="93.0" text="累計燃費" />
-                  <TableColumn fx:id="price" prefWidth="93.0" text="ガソリン単価" />
-                  <TableColumn fx:id="cost" prefWidth="93.0" text="燃料費" />
-                  <TableColumn fx:id="totalCost" prefWidth="93.0" text="累計燃料費" />
+                  <TableColumn fx:id="price" prefWidth="92.0" text="ガソリン単価" />
+                  <TableColumn fx:id="cost" prefWidth="92.0" text="燃料費" />
+                  <TableColumn fx:id="totalCost" prefWidth="92.0" text="累計燃料費" />
                </columns>
             </TableView>
             <TableView fx:id="tableLatestData3" layoutX="18.0" layoutY="168.0" prefHeight="86.0" prefWidth="465.0">
